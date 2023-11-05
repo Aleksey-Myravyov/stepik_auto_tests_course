@@ -4,7 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import time, math
- 
+
+
 # Функция для вычисления искомого числа.
 def calc(x):
     return str(math.log(abs(12*math.sin(int(x)))))
